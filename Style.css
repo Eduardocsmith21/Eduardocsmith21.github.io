@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;  /*Espaçamento das letras*/
+}
+* {      /*Deixar a parte superior na mesma linha, zerando todas as margens*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nave-itens {
+    list-style: none;       /*Tirar bolinhas da lista*/
+    display: flex;   /*Colocar uma do lado da outra*/
+}
+.nave-itens>li>a{
+    padding-left: 20px;     /*Colocar distancia entre os links*/
+    color: #202020;
+    text-decoration: none;      /*Sumir sublinhado de Links*/
+}
+nav{
+    display: flex;
+    justify-content: space-around;     /*Espaçamento*/
+    margin-top: 25px;       /*Esáçamento do topo*/
+    align-items: center;    /*Centralizar os links/butons*/
+    color: #202020;
+}
+.logo{
+    font-weight: 900;       /*Deixar fonte mais grossa e negrito*/
+    font-size: 30px;        /*Tamanho da fonte da logo*/
+}
+.login{
+    padding: 10px 35px;  /*Tamanho do button, altura e largura*/
+    font-size: 14px;
+    border: none;       /*Tirar Bordas*/
+    border-radius: 5px;     /*Curvatura da borda*/
+    color: #202020;
+    background-color: #fff;
+    cursor: pointer;    
+}
+.cadastro{
+    padding: 10px 35px;  /*Tamanho do button, altura e largura*/
+    font-size: 14px;
+    border: none;       /*Tirar Bordas*/
+    border-radius: 5px;     /*Curvatura da borda*/
+    color: #fff;
+    background-color: #202020;
+    cursor: pointer;    
+    transition: 1s background; /*Tempo de transição apos o mouse passa por cima do elemento*/
+}
+.cadastro:hover{
+    background-color: #666363;
+    transition: 1s background;
+}
+.logo2{
+    width: 40px;
+    height: 40px;
+}
+.img1{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.img2{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.img3{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.img4{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.img5{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.img6{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 250px;
+    height: 500px;
+}
+.vendidas{
+    font-weight: 900;
+    font-size: 36px;
+    padding-top: 100px;
+}
+.linha1{
+    max-width: 300px;
+    background-color: white;
+    height: 300px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.valor{
+   padding-top: 30px;
+   padding-left: 90px;
+}
+.produto{
+    padding-top: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.linha1-box1{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.linha1-box2{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.linha1-box3{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.linha2-box1{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.linha2-box2{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.linha2-box3{
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.res{
+    background-color: white;
+}
+.flex{
+    padding-top: 250px;
+}
+
+/*Roda-pé*/
+.footer_link{
+    text-decoration: none;
+}
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+#footer_content{
+    background-color: var(--color-neutral-10);
+    color: var(--color-neutral-40);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*Informando a quantidade de colunas*/
+    padding:  3rem 3.5rem;
+}
+#footer_content h1{
+    margin-bottom: 0.75rem;
+}
+#footer_social_media{
+    display: flex;
+    gap: 2rem;  /*Espaçamento dos icones (instagram, facebook, whatsapp)*/
+    margin-top: 1.5rem;
+}
+#footer_social_media .footer_link{
+    display: flex;
+    align-items: center;  /*Centralizar*/
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;  /*Bordar arredondada*/
+    transition: all 0.4s; /*Tempo de transição quando diminuir a pacidade*/
+}
+#footer_social_media .footer_link i{
+    font-size: 1.25rem;
+}
+#footer_social_media .footer_link:hover{
+    opacity: 0.8;       /*diminuir a pacidade quando o mouse tocar no icones*/
+}
+#instagram{
+    background: linear-gradient(#7f57c9, #ff2992, #ff9807);
+}
+#facebook{
+    background-color: #4267b3;
+}
+#whatsapp{
+    background-color: #25d366;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;     /*Informando que é coluna*/
+    gap: 0.75rem;
+    list-style: none;       /*Tirar as bolinhas*/
+}
+.footer-list .footer_link{
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+.footer-list .footer_link:hover{
+    color: #7f37c9;
+}
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer_subscribe p{
+    columns: var(--color-neutral-30);
+}
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: 4px;
+    border-radius: 4px;
+}
+#input_group input{
+    /*all:unset;*/  /*Tirar configuração padrão*/
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px; /*Arendondar só as bordas das direitas*/
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#input_group button:hover{
+    opacity:0.8;
+}
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    color: var(--color-neutral-40);
+    padding: 1rem;
+}

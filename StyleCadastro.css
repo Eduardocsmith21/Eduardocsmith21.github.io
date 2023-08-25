@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#titulo{
+    margin-left: 12%;
+    padding-top: 40px;
+}
+#subtitulo{
+    margin-left: 8%;
+}
+#check{
+    display: inline-block;
+}
+fieldset{
+    border: 0;
+}
+body{
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 3em;
+}
+.campo label{
+    margin-bottom:  0.3em;
+    display: block;
+}
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 3em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 5;
+    display: block;
+}
+.campo select option {
+    padding-right:  1em;
+}
+.botao {
+    font-size: 1.2em;
+    background: #000000;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(46, 45, 45, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+.botao:hover {
+    background: #4c4953;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
